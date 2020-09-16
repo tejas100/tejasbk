@@ -119,12 +119,25 @@ h1 {
 }
 
 p {
-      color: rgb(95, 95, 95);
+      color: rgb(160, 160, 160);
       font-weight: 200;
       font-family: "Roboto";
+      text-align: justify;
       line-height: 28px;
       margin-top: 0;
       margin-bottom: 0;
+      font-size: 16px;
+}
+
+p h4{
+      color: rgb(160, 160, 160);
+      font-weight: 200;
+      font-family: "Roboto";
+      text-align: justify;
+      line-height: 28px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 16px;
 }
 
 .buttons {
@@ -178,7 +191,7 @@ button {
       bottom: 40px;
 }
 
-.copyright {
+.year {
       position: absolute;
       z-index: 1;
       color: grey;
@@ -186,7 +199,7 @@ button {
       right: 0;
       font-family: Roboto;
       font-weight: 100;
-      margin-right: 2em;
+      margin-right: 1em;
       bottom: 40px;   
 }
 
@@ -198,7 +211,7 @@ button {
       z-index: 2;
 }
 
-.ring {
+.pic {
       margin: 0%;
       padding: 0%;
       top: 50%;
@@ -210,29 +223,14 @@ button {
       opacity: 0.7;    
 }
 
-.ringOne img {
-      animation: rotateFirstRing 2s linear infinite;
-}
 
-.ringTwo img {
-      animation: rotateFirstRing 8s linear infinite;
-}
-
-@keyframes rotateFirstRing {
-      from {
-            transform: rotate(0deg);
-      }
-      to {
-            transform: rotate(360deg);
-      }
-}
 
 @media(max-width: 900px) {
 
       .loading-screen {
             display: none;
       }
-      .ring img {
+      .sir img {
             display: none;
       }
 

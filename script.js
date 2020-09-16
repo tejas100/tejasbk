@@ -33,7 +33,7 @@
             ease: Expo.easeInOut
       });
 
-      TweenMax.from(".copyright", 3, {
+      TweenMax.from(".year", 3, {
             delay: 8.9,
             opacity: 0,
             y: 20,
@@ -89,7 +89,7 @@
             opacity: 0,
             y:40,
             ease: Expo.easeInOut
-      }).from(".ringTwo", 4, {
+      }).from(".sir", 4, {
             delay: 0.9,
             opacity: 0,
             y: 40,
@@ -98,7 +98,7 @@
             delay: 0.4,
             x: 40,
             ease: Expo.easeInOut
-      }).to(".ringTwo", 4, {
+      }).to(".sir", 4, {
             delay: 0.9,
             x: 40,
             ease: Expo.easeInOut
